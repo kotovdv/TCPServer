@@ -106,7 +106,6 @@ public class Server {
             executor.awaitTermination(timeout, unit);
         } catch (Exception e) {
             Thread.currentThread().interrupt();
-            log.error("WTF???", e);
         }
 
         log.info("Shutting down server socket");

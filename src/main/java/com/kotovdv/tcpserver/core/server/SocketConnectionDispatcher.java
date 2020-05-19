@@ -10,7 +10,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.RejectedExecutionException;
 
 /**
- * Dispatched incoming socket connections to available threads for handling.
+ * Dispatches incoming socket connections to available threads for handling.
  */
 public class SocketConnectionDispatcher {
 
